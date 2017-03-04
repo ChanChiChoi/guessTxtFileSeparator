@@ -1,6 +1,6 @@
 # guessTxtFileSeparator
-to guess the simple separator of each txt file.
-the setps as follow:
+to guess the simple separator of each txt file.\n
+the setps as follow:\n
   1 - read the first 10 lines
   2 - filter the empty lines
   3 - replace the '[0-9a-zA-Z\_]' into '@'
