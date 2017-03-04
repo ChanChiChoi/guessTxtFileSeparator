@@ -1,6 +1,5 @@
 # guessTxtFileSeparator
 to guess the simple separator of each txt file.
-
 the setps as follow:
 
   1 - read the first 10 lines
@@ -18,3 +17,13 @@ the setps as follow:
   7 - use re.findall('[{}]+'.format(subsetChars)) to get the candidate separator
   
   8 - verify whether the separator is valid 
+  
+# for example:
+  
+  aaa,bbb => [,]
+  
+  aaa\tbbb => [\t]
+  
+  aaa----bbb => [----]
+  
+  aaa # bbb => [ # ]
