@@ -1,5 +1,5 @@
 # guessTxtFileSeparator
-
+=1==
 to guess the simple separator of each txt file.
 the setps as follow:
 
